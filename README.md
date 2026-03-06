@@ -1,62 +1,64 @@
-📚 Study Planner
+# Study Planner
 
-A simple and modern Study Planner web application that helps students organize their subjects, manage study tasks, and track their learning progress efficiently.
+A simple and modern **Study Planner web application** that helps students organize subjects, manage study tasks, and track learning progress efficiently.
 
-This project demonstrates how AI-assisted development tools can be used to quickly build functional web applications with clean UI and essential productivity features.
+This project demonstrates productivity-focused development using AI-assisted tools and modern web technologies.
 
-🚀 Live Demo
+---
 
-Live Application:
+## Live Demo
+
+Live Application:  
 https://your-vercel-link.vercel.app
 
-Deployed on Vercel
+Hosted on Vercel.
 
-📌 Features
+---
 
-• Add and manage multiple study subjects
-• Create study tasks for each subject
-• Set due dates for tasks
-• Mark tasks as completed
-• Delete tasks when finished
-• View all tasks organized by subject
-• Track study progress with completed vs pending tasks
-• Clean and modern user interface
-• Fully responsive design for desktop and mobile
+## Features
 
-🧠 Purpose of the Project
+- Add and manage subjects
+- Create study tasks
+- Set due dates for tasks
+- Mark tasks as completed
+- Delete tasks
+- View tasks grouped by subject
+- Track progress (completed vs pending)
+- Clean and responsive UI
+- Mobile-friendly design
 
-Students often struggle to keep track of assignments, exam preparation, and daily study goals.
+---
 
-The Study Planner helps users:
+## Purpose
 
-Organize subjects
+Students often find it difficult to organize study schedules and assignments.
 
-Manage study tasks
+This Study Planner helps users:
 
-Track productivity
+- Manage learning tasks
+- Stay organized
+- Track productivity
+- Improve consistency
 
-Stay consistent with learning schedules
+---
 
-This project demonstrates how productivity tools can be built quickly using modern web technologies.
+## Tech Stack
 
-🛠 Tech Stack
-Frontend
+Frontend:
+- React
+- Next.js
+- TypeScript
 
-React
+Styling:
+- Tailwind CSS
 
-Next.js
+Deployment:
+- Vercel
 
-TypeScript
+---
 
-Styling
+## Project Structure
 
-Tailwind CSS
-
-Deployment
-
-Vercel
-
-📂 Project Structure
 study-planner
 │
 ├── app
@@ -72,33 +74,50 @@ study-planner
 ├── styles
 ├── package.json
 └── README.md
-⚙️ Setup Instructions
-1️⃣ Clone the repository
+
+---
+
+## Setup Instructions
+
+### 1. Clone the repository
+
 git clone https://github.com/yourusername/study-planner.git
 cd study-planner
-2️⃣ Install dependencies
+
+---
+
+### 2. Install dependencies
+
 npm install
-3️⃣ Run the development server
+
+---
+
+### 3. Run development server
+
 npm run dev
 
-Open in your browser:
+Open in browser:
 
 http://localhost:3000
-📱 Responsive Design
 
-The application is designed to work smoothly on:
+---
 
-✔ Desktop
-✔ Tablets
-✔ Mobile devices
+## Future Improvements
 
-📈 Future Improvements
+- User authentication
+- Cloud database integration
+- Study reminders
+- Progress analytics
+- Dark mode support
 
-Possible future enhancements include:
+---
 
-• User authentication system
-• Cloud database for saving study tasks
-• Study reminders and notifications
-• Calendar-based study planning
-• Progress analytics dashboard
-• Dark mode support
+## Author
+
+Raghu Naga Rohit Kampati
+
+---
+
+## License
+
+This project is for educational and demonstration purposes.
