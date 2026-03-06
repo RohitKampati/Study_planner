@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Study Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-content">
+                <h1>Study Planner.</h1>
+                <p class="subtitle">Organize your tasks, minimally.</p>
+            </div>
+            
+            <div class="global-progress">
+                <div class="progress-info">
+                    <span id="progress-text">0/0 Tasks</span>
+                    <span id="progress-percentage">0%</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-fill" id="progress-bar"></div>
+                </div>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <aside class="sidebar">
+                <div class="panel">
+                    <h2>New Subject</h2>
+                    <form id="add-subject-form">
+                        <div class="input-row">
+                            <input type="text" id="subject-name" placeholder="Name (e.g. Physics)" required>
+                            <button type="submit" class="btn btn-icon-submit" title="Add Subject">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="panel">
+                    <h2>New Task</h2>
+                    <form id="add-task-form">
+                        <select id="task-subject" required class="minimal-input">
+                            <option value="" disabled selected>Select Subject...</option>
+                        </select>
+                        <input type="text" id="task-name" placeholder="What to study?" required class="minimal-input">
+                        <input type="date" id="task-due-date" required class="minimal-input">
+                        <button type="submit" class="btn btn-full">Add Task</button>
+                    </form>
+                </div>
+            </aside>
+
+            <section class="board" id="tasks-container">
+                <!-- Subject Cards will be rendered here -->
+                <div class="empty-state" id="empty-state">
+                    <div class="empty-icon"><i class="fa-regular fa-folder-open"></i></div>
+                    <h3>It's quiet here</h3>
+                    <p>Add a subject to begin planning your studies.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
