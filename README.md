@@ -1,123 +1,122 @@
-# Study Planner
+# Study_Planner
 
-A simple and modern **Study Planner web application** that helps students organize subjects, manage study tasks, and track learning progress efficiently.
+## Study Planner – Productivity Web Application
 
-This project demonstrates productivity-focused development using AI-assisted tools and modern web technologies.
+A **Study Planner web application** that helps students organize subjects, manage study tasks, and track their daily study progress efficiently.
+
+This project demonstrates practical front-end development concepts including task management, responsive UI design, and productivity-focused application flow.
 
 ---
 
-## Live Demo
+## 🚀 Features
+
+- Add study subjects
+- Create study tasks for each subject
+- Set due dates for study tasks
+- Mark tasks as completed
+- Delete tasks when finished
+- Track completed vs pending study tasks
+- Responsive design for desktop and mobile
+- Clean and modern user interface
+
+---
+
+## 🧠 Complete Application Flow (End-to-End)
+
+User opens the application  
+Study planner dashboard appears  
+
+User adds study subjects  
+User creates study tasks for each subject  
+
+Tasks appear in the planner list  
+
+User marks tasks as completed after finishing them  
+
+Completed and pending tasks help track daily progress  
+
+User manages study schedule efficiently
+
+---
+
+## 🔧 Real-World Problem Solved
+
+### Problem
+
+Students often struggle with:
+
+- Managing multiple subjects
+- Tracking assignments and study tasks
+- Maintaining a consistent study schedule
+- Organizing daily academic workload
+
+### Solution
+
+This application helps students:
+
+- Plan their study schedule
+- Organize tasks by subject
+- Track completed and pending tasks
+- Improve productivity and time management
+
+---
+
+## ⚠️ Important Productivity Feature
+
+### Task Completion Tracking
+
+The planner allows users to mark tasks as **completed**, helping them visualize their study progress.
+
+Benefits include:
+
+- Motivation through progress tracking
+- Clear visibility of remaining tasks
+- Better time management for exams and assignments
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:  
+- React  
+- Next.js  
+- TypeScript  
+
+Styling:  
+- Tailwind CSS  
+
+Deployment:  
+- Vercel  
+
+---
+
+## 🧩 Concepts Covered
+
+- Modern web application development
+- Component-based architecture
+- Task management systems
+- Responsive UI design
+- Frontend state management
+- Productivity-focused application design
+- Real-world problem solving
+
+---
+
+## 📌 Deployment
+
+The application is deployed online using **Vercel** for fast and scalable hosting.
 
 Live Application:  
 https://your-vercel-link.vercel.app
 
-Hosted on Vercel.
+---
+
+## 👨‍💻 Author
+
+**Raghu Naga Rohit Kampati**
 
 ---
 
-## Features
+## 📜 License
 
-- Add and manage subjects
-- Create study tasks
-- Set due dates for tasks
-- Mark tasks as completed
-- Delete tasks
-- View tasks grouped by subject
-- Track progress (completed vs pending)
-- Clean and responsive UI
-- Mobile-friendly design
-
----
-
-## Purpose
-
-Students often find it difficult to organize study schedules and assignments.
-
-This Study Planner helps users:
-
-- Manage learning tasks
-- Stay organized
-- Track productivity
-- Improve consistency
-
----
-
-## Tech Stack
-
-Frontend:
-- React
-- Next.js
-- TypeScript
-
-Styling:
-- Tailwind CSS
-
-Deployment:
-- Vercel
-
----
-
-## Project Structure
-
-study-planner
-│
-├── app
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── components
-│   ├── TaskCard.tsx
-│   ├── SubjectList.tsx
-│   └── ProgressBar.tsx
-│
-├── public
-├── styles
-├── package.json
-└── README.md
-
----
-
-## Setup Instructions
-
-### 1. Clone the repository
-
-git clone https://github.com/yourusername/study-planner.git
-cd study-planner
-
----
-
-### 2. Install dependencies
-
-npm install
-
----
-
-### 3. Run development server
-
-npm run dev
-
-Open in browser:
-
-http://localhost:3000
-
----
-
-## Future Improvements
-
-- User authentication
-- Cloud database integration
-- Study reminders
-- Progress analytics
-- Dark mode support
-
----
-
-## Author
-
-Raghu Naga Rohit Kampati
-
----
-
-## License
-
-This project is for educational and demonstration purposes.
+This project was created for learning, productivity demonstration, and educational purposes.
