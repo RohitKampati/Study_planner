@@ -107,7 +107,7 @@ Deployment:
 The application is deployed online using **Vercel** for fast and scalable hosting.
 
 Live Application:  
-https://your-vercel-link.vercel.app
+https://study-planner-omega-ebon.vercel.app/
 
 ---
 
